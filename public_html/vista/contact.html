@@ -9,8 +9,135 @@ and open the template in the editor.
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="../css/estiloscontac.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <div>TODO write content</div>
+        <div id="contenedor">             
+                 <li><a href="">Poner su Infortmacion</a></li>
+                 <form method="post" action="#">
+<ul>
+<li>
+    
+  
+  <div>
+      <span>
+      <label for="nombre">Nombre</label>
+      </span>
+      
+    <span>
+      <input id="nombre" name="nombre" value="" />
+      <label for="nombre">Primer apellido</label>
+    </span>
+ 
+    <span>
+      <input id="apellido1" name="apellido1" value="" />
+      <label for="apellido1">Segundo apellido</label>
+    </span>
+ 
+    <span>
+      <input id="apellido2" name="apellido2" value="" />
+      <label for="apellido2"></label>
+    </span>
+  </div>
+ 
+  <p class="ayuda">No te olvides de escribir también tu segundo apellido</p>
+</li>
+ 
+<li>
+  <label class="titulo" for="direccion">Dirección <span class="requerido">*</span></label>
+ 
+  <div>
+    <span>
+      <input id="direccion" name="direccion" value="" />
+      <label for="direccion">Número</label>
+    </span>
+ 
+    <span>
+      <input id="codigopostal" name="codigopostal" value="" />
+      
+    </span>
+    <span>
+      
+      <label for="provincia">Departamento</label>
+    </span>
+ 
+    <span>
+      <select id="pais" name="pais">
+        <option value=""></option>
+        <option value="pais1">Amazonas</option>
+        <option value="pais2">Áncash</option>
+        <option value="pais3">Apurímac</option>
+        <option value="pais3">Ayacucho</option>
+        <option value="pais3">Cajamarca</option>
+        <option value="pais3">Callao</option>
+        <option value="pais3">Cusco</option>
+        <option value="pais3">Huánuco</option>
+        <option value="pais3">Ica</option>
+        <option value="pais3">Junín</option>
+        <option value="pais3">La Libertad</option>
+        <option value="pais3">Lima Metropolitana</option>
+        <option value="pais3">Lima (departamento)</option>
+        <option value="pais3">Loreto</option>
+        <option value="pais3">Madre de Dios</option>
+        <option value="pais3">Moquegua</option>
+        <option value="pais3">Pasco</option>
+        <option value="pais3">Piura</option>
+        <option value="pais3">Puno</option>
+        <option value="pais3">San Martín</option>
+        <option value="pais3">Tacna</option>
+        <option value="pais3">Tumbes</option>
+        <option value="pais3">Ucayali</option>
+        
+        
+        
+      </select>
+   
+    </span>
+  </div>
+ 
+ 
+</li>
+ 
+<li>
+  <label class="titulo" for="email">Email</label>
+ 
+  <div>
+    <span>
+      <input id="email" name="email" value="" />
+    </span>
+  </div>
+ 
+  <p class="ayuda">Asegúrate de que sea válido</p>
+</li>
+ 
+<li>
+  <label class="titulo" for="telefonofijo">Teléfono <span class="requerido">*</span></label>
+ 
+  <div>
+    <span>
+      <input id="telefonofijo" name="telefonofijo" value="" />
+      <label for="telefonofijo">Movil</label>
+    </span>
+ 
+    <span>
+      <input id="telefonomovil" name="telefonomovil" value="" />
+      <label for="telefonomovil"></label>
+    </span>
+  </div>
+ 
+  
+</li>
+ 
+<li>
+  <input id="alta" type="submit" value="enviar" />
+</li>
+ 
+</ul>
+      
+        </div>
+                   
+    </body>
+</html>
+
     </body>
 </html>
